@@ -23,4 +23,44 @@ This repositary is only a guide to access the configured linux server on Amazon 
 The user "grader" is given root privilges
 - grader's Password : !23@Grader
 
+### Item Catalog
+you can visit the item catalog web app that is hosted on the seever via 
+- https://3.124.200.75.xip.io/
+* you may get a warning ⚠️ because of invalid ssl certification just click advanced and skip it
 
+## How I configured the server
+
+* added the grader user 
+* set root access for user grader
+* installed postegresql and apache http server
+* setup the database through a python script 
+* connected the flask app to the apache server throug mod-wsgi
+* configured ssh keys for each user and disallowed ssh via passwords
+* changed ssh port to a non-default port
+* configured the ufw to limit available ports
+* DONE
+
+## configuration info
+
+* webapp directory
+- /var/www/Item_Catalog
+
+* wsgi script 
+- /var/www/Item_Catalog/my_app.wsgi
+
+* error log 
+- /var/log/apache2/error.log
+
+* apache2 site configuration files
+- /etc/apache2/sites-available/000-default.conf
+- /etc/apache2/sites-available/default-ssl.conf
+
+* postegresql user
+- postgres
+
+* SSL certificate and key
+- /etc/ssl/private/apache-selfsigned.key
+- /etc/ssl/certs/apache-selfsigned.crt
+
+* flask webapp output log
+- /home/ubuntu/output.log
