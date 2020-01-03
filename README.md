@@ -43,7 +43,7 @@ you can visit the item catalog web app that is hosted on the seever via
 ## configuration info
 
 * webapp directory
-- /var/www/Item_Catalog
+-     /var/www/Item_Catalog
 
 * wsgi script 
 - /var/www/Item_Catalog/my_app.wsgi
