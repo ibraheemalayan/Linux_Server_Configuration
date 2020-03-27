@@ -43,25 +43,25 @@ you can visit the item catalog web app that is hosted on the seever via
 
 ## configuration info
 
-* webapp directory
+#### webapp directory    
 -     /var/www/Item_Catalog
 
-* wsgi script 
+#### wsgi script     
 -     /var/www/Item_Catalog/my_app.wsgi
 
-* error log 
+#### error log    
 -     /var/log/apache2/error.log
 
 * apache2 site configuration files
 -     /etc/apache2/sites-available/000-default.conf
 -     /etc/apache2/sites-available/default-ssl.conf
 
-* postegresql user
-- postgres
+#### postegresql user    
+-     postgres
 
-* SSL certificate and key
+#### SSL certificate and key       
 -     /etc/ssl/private/apache-selfsigned.key
 -     /etc/ssl/certs/apache-selfsigned.crt
-
-* flask webapp output log
+ 
+#### flask webapp output log      
 -     /home/ubuntu/output.log
