@@ -7,7 +7,10 @@ Ibraheem Alyan
 ### Overview
 This repositary is only a guide to access the configured linux server on Amazon LightSale
 
+## ⚠ This project is no longer deployed ⚠
+
 ## Info
+
 
 ### SSHing into the server
 
